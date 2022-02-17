@@ -18,4 +18,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 # manual edit should be revered when replicas change is done via
 kubectl edit deployment -n myapp myapp
+
+# remove argo CD
+kubectl delete ns argocd
 ```

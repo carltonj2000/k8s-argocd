@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://gitlab.com/carltonj2000/k8s-argocd.git
+    repoURL: https://github.com/carltonj2000/k8s-argocd.git
     targetRevision: HEAD
     path: dev
   destination:
